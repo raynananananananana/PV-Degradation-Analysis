@@ -1,5 +1,5 @@
 # PV-Degradation-Analysis
-Repo for the search/download/reading/analysis of articles on PV module degradation for the DuraMAT LLM project. Work completed Summer 2025 for the DOE SULI Internship
+
 Overview
 This document details the system used to find papers, automatically download and sort them, use Gemini to extract information, and produce graphs and test statistics to understand this information. This work was completed during the SULI Summer 2025 term by Rayna Hylden with mentors Baojie Li and Anubhav Jain. 
 
