@@ -55,5 +55,7 @@ The code to generate these graphs is generally at the end of the associated piec
 # License and Disclaimer
 
 BSD-2 Clause. See the License file. 
+
 This system is only for use with content you are legally granted access to. Authors are not responsible for misuse. 
+
 Generative AI tools (ChatGPT 4o, Copilot) were used throughout the coding process for generating and troubleshooting code. GenAI is also itegrated into the system via the Gemini API key. Researchers are responsible for confirming that information shared and published using this system is accurate. 
