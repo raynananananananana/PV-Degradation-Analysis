@@ -11,6 +11,7 @@ The metadata can be manually downloaded by selecting all results and saving thes
 If you’re combining results from multiple search queries, use the segment of the code that deletes duplicate results. At this point in the process, you can also get rid of columns of information that you don’t need (for example, the abstract if it was downloaded & not needed). 
 
 Downloading Papers to PDF
+
 The download process occurs through two main avenues: 
 API keys for specific publishers (fulltext_article_downloader)
 Elsevier, IEEE, Wiley, and Springer have API keys available with an institutional account. Additionally, use any email as the “unpaywall email” as a backup for other publishers.
@@ -28,6 +29,7 @@ Be prepared for many of these download attempts to fail. Publishers often have s
 Downloading should only be done through pathways that adhere to copyright law. If automated systems do not produce enough papers, the rest of the search results can be manually accessed with an LBL or university account and those PDFs can be used throughout the rest of the process.
 
 Information Extraction
+
 Note on the use of LLMs for analysis:
 Manually verify that the LLM in use (whether Gemini or any other) is outputting correct information. Check a sample batch of papers against the LLM interpretation to ensure that the output is thorough and correct. AI can make mistakes. 
 Additionally, check which model is running in the program. The original code was run on Gemini Flash 2.5, but a more recent version may be available. 
@@ -40,6 +42,7 @@ This article from Nature provides helpful guidelines for writing high quality pr
 Run your prompt on the same small sample batch that you manually checked. Make adjustments accordingly to get the correct format, type of information, etc. For best results, be specific about what you want and provide examples. 
 
 Data Analysis
+
 The means of data analysis is dependent on the goal of this study. Explanations of the process used on the PID study are below. Other types of degradation can follow a similar process, or the researcher may adjust as needed. 
 Chi Square Tests for Independence
 This essentially says that the odds of a random relationship producing the distribution observed is so small that it’s more likely than not that the variables are dependent.
