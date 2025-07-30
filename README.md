@@ -1,16 +1,16 @@
 # PV-Degradation-Analysis
 
-Overview
+# Overview
 This document details the system used to find papers, automatically download and sort them, use Gemini to extract information, and produce graphs and test statistics to understand this information. This work was completed during the SULI Summer 2025 term by Rayna Hylden with mentors Baojie Li and Anubhav Jain. 
 
-Paper Searches
+# Paper Searches
 Search categories and their respective queries are contained in this Google spreadsheet. (https://docs.google.com/spreadsheets/d/1Y2nzMlW0HgTGP25nct62clOAnFDzD3vHKQ78JsHSNok/edit?usp=sharing). You can search for only one category (e.g. just encapsulant, LETID, etc.) or search for all categories, depending on the  
 
 The metadata can be manually downloaded by selecting all results and saving these to a CSV file. The download process is dependent on having this information in CSV format. For this step, save all information offered.
 
 If you’re combining results from multiple search queries, use the segment of the code that deletes duplicate results. At this point in the process, you can also get rid of columns of information that you don’t need (for example, the abstract if it was downloaded & not needed). 
 
-Downloading Papers to PDF
+# Downloading Papers to PDF
 
 The download process occurs through two main avenues: 
 API keys for specific publishers (fulltext_article_downloader)
@@ -28,7 +28,7 @@ Be prepared for many of these download attempts to fail. Publishers often have s
 
 Downloading should only be done through pathways that adhere to copyright law. If automated systems do not produce enough papers, the rest of the search results can be manually accessed with an LBL or university account and those PDFs can be used throughout the rest of the process.
 
-Information Extraction
+# Information Extraction
 
 Note on the use of LLMs for analysis:
 Manually verify that the LLM in use (whether Gemini or any other) is outputting correct information. Check a sample batch of papers against the LLM interpretation to ensure that the output is thorough and correct. AI can make mistakes. 
@@ -41,7 +41,7 @@ The prompts for degradation pathway (generally) and a PID-specific prompt are fo
 This article from Nature provides helpful guidelines for writing high quality prompts: https://www.nature.com/articles/s41562-024-01847-2 
 Run your prompt on the same small sample batch that you manually checked. Make adjustments accordingly to get the correct format, type of information, etc. For best results, be specific about what you want and provide examples. 
 
-Data Analysis
+# Data Analysis
 
 The means of data analysis is dependent on the goal of this study. Explanations of the process used on the PID study are below. Other types of degradation can follow a similar process, or the researcher may adjust as needed. 
 Chi Square Tests for Independence
@@ -51,3 +51,9 @@ The code also includes a number of types of graphs. Some show the distribution o
 Chord diagrams can also be used to visualize connections between variables, and are included in this code using HoloViews and Bokeh. These are useful when variables are all connected to one another. 
 Sankey diagrams are also included in this, and can be more useful for relationships between two categories. 
 The code to generate these graphs is generally at the end of the associated piece of code
+
+# License and Disclaimer
+
+BSD-2 Clause. See the License file. 
+This system is only for use with content you are legally granted access to. Authors are not responsible for misuse. 
+Generative AI tools (ChatGPT 4o, Copilot) were used throughout the coding process for generating and troubleshooting code. GenAI is also itegrated into the system via the Gemini API key. Researchers are responsible for confirming that information shared and published using this system is accurate. 
