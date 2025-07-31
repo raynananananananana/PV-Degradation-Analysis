@@ -4,7 +4,7 @@
 This document details the system used to find papers, automatically download and sort them, use Gemini to extract information, and produce graphs and test statistics to understand this information. This work was completed during the SULI Summer 2025 term by Rayna Hylden with mentors Baojie Li and Anubhav Jain. 
 
 # Paper Searches
-Search categories and their respective queries are contained in this Google spreadsheet. (https://docs.google.com/spreadsheets/d/1Y2nzMlW0HgTGP25nct62clOAnFDzD3vHKQ78JsHSNok/edit?usp=sharing). You can search for only one category (e.g. just encapsulant, LETID, etc.) or search for all categories, depending on the  
+Search categories and their respective queries are contained in this Google spreadsheet. (https://docs.google.com/spreadsheets/d/1Y2nzMlW0HgTGP25nct62clOAnFDzD3vHKQ78JsHSNok/edit?usp=sharing). You can search for only one category (e.g. just encapsulant, LETID, etc.) or search for all categories.   
 
 The metadata can be manually downloaded by selecting all results and saving these to a CSV file. The download process is dependent on having this information in CSV format. For this step, save all information offered.
 
