@@ -1,5 +1,3 @@
-# PV-Degradation-Analysis
-
 # Overview
 This document details the system used to find papers, automatically download and sort them, use Gemini to extract information, and produce graphs and test statistics to understand this information.
 
